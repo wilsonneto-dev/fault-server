@@ -1,0 +1,13 @@
+GET http://localhost:3000/shipping/Location?TenantCode=GOCAS&CountryCode=NO&PostalCode=0015&RouteType=Outbound
+
+###
+POST http://localhost:3000/mocks
+
+{
+  "route": "/shipping",
+  "path": "GET",
+  "method": "/shipping/Location",
+  "status": number,
+  "headers": any,
+  "body": any
+}

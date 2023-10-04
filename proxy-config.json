@@ -1,0 +1,8 @@
+{
+  "proxies": [
+    {
+      "route": "/dpd",
+      "base": "https://api.dpd.co.uk"
+    }
+  ]
+}
