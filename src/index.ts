@@ -132,7 +132,7 @@ config.proxies.forEach(proxy => {
             if (error.response) {
                 res
                     .status(error.response.status)
-                    .set('X-Proxied-By', 'npm install express axios body-parser typescript ts-node @types/node @types/express @types/body-parser\n')
+                    .set('X-Proxied-By', 'Fautty-Proxy')
                     .send(error.response.data);
             } else {
                 res.status(500).send('An error occurred while processing your request.');
